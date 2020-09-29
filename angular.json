@@ -28,9 +28,11 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "wedding-website"
+    }
+  },
+  "defaultProject": "wedding-website",
+  "cli": {
+    "analytics": "797e88a7-be03-40bf-b15b-80abece7ccc3"
+  }
 }
